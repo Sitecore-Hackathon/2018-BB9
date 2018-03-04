@@ -1,0 +1,29 @@
+{
+  "Name": "HeatMapModel",
+  "Version": "1.0",
+  "References": [
+    {
+      "Name": "XConnect",
+      "Version": "1.0"
+    }
+  ],
+  "Types": {
+    "xConnect.HeatMap.Models.Models.ClickEvent": {
+      "Type": "Event",
+      "BaseType": "Sitecore.XConnect.Event",
+      "ClrType": "xConnect.HeatMap.Models.Models.ClickEvent, xConnect.HeatMap.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Properties": {
+        "ComponentId": {
+          "Type": "Guid"
+        },
+        "PageId": {
+          "Type": "Guid"
+        },
+        "Language": {
+          "Type": "String"
+        }
+      }
+    }
+  },
+  "Facets": []
+}

@@ -1,0 +1,17 @@
+﻿<Settings>
+    <Sitecore>
+        <XConnect>
+            <Services>
+                <XConnect.Client.Configuration>
+                    <Options>
+                        <Models>
+                            <HeatmapCollectionModel>
+                                <TypeName>xConnect.HeatMap.Models.Builders.ModelBuilder, xConnect.HeatMap.Models</TypeName>
+                            </HeatmapCollectionModel>
+                        </Models>
+                    </Options>
+                </XConnect.Client.Configuration>
+            </Services>
+        </XConnect>
+    </Sitecore>
+</Settings>

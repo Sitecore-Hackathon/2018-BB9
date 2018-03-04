@@ -1,0 +1,17 @@
+﻿@if (Sitecore.Context.PageMode.IsNormal)
+{
+    <!-- Sitecore xConnect click tracking -->
+    <script src="~/Content/HeatMap/javaScript/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/HeatMap/javaScript/xConnect_heatMap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Init the heatMap object and parameter it with Context Item ID and Context Language
+            heatMap.Init('@(Sitecore.Context.Item.ID.Guid)', '@(Sitecore.Context.Item.Language)');
+        });
+    </script>
+    <!-- Sitecore xConnect click tracking -->
+}
+else
+{
+    <link rel="stylesheet" type="text/css" href="~/Content/HeatMap/styles/xConnect_heatMap.css" />
+}
